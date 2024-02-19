@@ -30,16 +30,16 @@ def show_weather():
     visibility = weather_data['current']['vis_km']
 
     # Les labels
-    location_label.config(text=f"Informations Méteo pour :  {location}", font=("Arial", 14, "bold"), fg="navy")
-    local_time_label.config(text=f"Date: {local_time}", font=("Arial", 12), fg="navy")
-    temperature_label.config(text=f"Temperature: {temperature}°C", font=("Arial", 12), fg="navy")
-    condition_label.config(text=f"Condition: {condition}", font=("Arial", 12), fg="navy")
-    wind_speed_label.config(text=f"Viteese du vent: {wind_speed} km/h", font=("Arial", 12), fg="navy")
-    wind_direction_label.config(text=f"Direction du vent: {wind_direction}", font=("Arial", 12), fg="navy")
-    humidity_label.config(text=f"Humidité: {humidity}%", font=("Arial", 12), fg="navy")
-    cloud_cover_label.config(text=f"Nuages: {cloud_cover}%", font=("Arial", 12), fg="navy")
+    location_label.config(text=f"Informations Météo pour : {location}", font=("Arial", 14, "bold"), fg="navy")
+    local_time_label.config(text=f"Date : {local_time}", font=("Arial", 12), fg="navy")
+    temperature_label.config(text=f"Température : {temperature}°C", font=("Arial", 12), fg="navy")
+    condition_label.config(text=f"Condition : {condition}", font=("Arial", 12), fg="navy")
+    wind_speed_label.config(text=f"Vitesse du vent : {wind_speed} km/h", font=("Arial", 12), fg="navy")
+    wind_direction_label.config(text=f"Direction du vent : {wind_direction}", font=("Arial", 12), fg="navy")
+    humidity_label.config(text=f"Humidité : {humidity}%", font=("Arial", 12), fg="navy")
+    cloud_cover_label.config(text=f"Nuages : {cloud_cover}%", font=("Arial", 12), fg="navy")
     pressure_label.config(text=f"Pression : {pressure} mb", font=("Arial", 12), fg="navy")
-    visibility_label.config(text=f"Visibilité: {visibility} km", font=("Arial", 12), fg="navy")
+    visibility_label.config(text=f"Visibilité : {visibility} km", font=("Arial", 12), fg="navy")
 
     # API image
     local_image_path = "Soulayman_Free_API.png"
